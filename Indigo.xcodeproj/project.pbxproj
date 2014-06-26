@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		517760FB195BF2940017EBFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517760FA195BF2940017EBFA /* Foundation.framework */; };
+		517760FD195BF2940017EBFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517760FC195BF2940017EBFA /* CoreGraphics.framework */; };
+		517760FF195BF2940017EBFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517760FE195BF2940017EBFA /* UIKit.framework */; };
+		51776105195BF2940017EBFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51776103195BF2940017EBFA /* InfoPlist.strings */; };
+		51776107195BF2940017EBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51776106195BF2940017EBFA /* main.m */; };
+		5177610B195BF2940017EBFA /* indigoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5177610A195BF2940017EBFA /* indigoAppDelegate.m */; };
+		5177610D195BF2940017EBFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5177610C195BF2940017EBFA /* Images.xcassets */; };
+		51776114195BF2950017EBFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51776113195BF2950017EBFA /* XCTest.framework */; };
+		51776115195BF2950017EBFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517760FA195BF2940017EBFA /* Foundation.framework */; };
+		51776116195BF2950017EBFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517760FE195BF2940017EBFA /* UIKit.framework */; };
+		5177611E195BF2950017EBFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5177611C195BF2950017EBFA /* InfoPlist.strings */; };
+		51776120195BF2950017EBFA /* IndigoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5177611F195BF2950017EBFA /* IndigoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51776117195BF2950017EBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517760EF195BF2940017EBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517760F6195BF2940017EBFA;
+			remoteInfo = Indigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		517760F7195BF2940017EBFA /* Indigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		517760FA195BF2940017EBFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		517760FC195BF2940017EBFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		517760FE195BF2940017EBFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51776102195BF2940017EBFA /* Indigo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Indigo-Info.plist"; sourceTree = "<group>"; };
+		51776104195BF2940017EBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51776106195BF2940017EBFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51776108195BF2940017EBFA /* Indigo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Indigo-Prefix.pch"; sourceTree = "<group>"; };
+		51776109195BF2940017EBFA /* indigoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indigoAppDelegate.h; sourceTree = "<group>"; };
+		5177610A195BF2940017EBFA /* indigoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = indigoAppDelegate.m; sourceTree = "<group>"; };
+		5177610C195BF2940017EBFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51776112195BF2950017EBFA /* IndigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51776113195BF2950017EBFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5177611B195BF2950017EBFA /* IndigoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IndigoTests-Info.plist"; sourceTree = "<group>"; };
+		5177611D195BF2950017EBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5177611F195BF2950017EBFA /* IndigoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndigoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517760F4195BF2940017EBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517760FD195BF2940017EBFA /* CoreGraphics.framework in Frameworks */,
+				517760FF195BF2940017EBFA /* UIKit.framework in Frameworks */,
+				517760FB195BF2940017EBFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5177610F195BF2950017EBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51776114195BF2950017EBFA /* XCTest.framework in Frameworks */,
+				51776116195BF2950017EBFA /* UIKit.framework in Frameworks */,
+				51776115195BF2950017EBFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517760EE195BF2940017EBFA = {
+			isa = PBXGroup;
+			children = (
+				51776100195BF2940017EBFA /* Indigo */,
+				51776119195BF2950017EBFA /* IndigoTests */,
+				517760F9195BF2940017EBFA /* Frameworks */,
+				517760F8195BF2940017EBFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517760F8195BF2940017EBFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517760F7195BF2940017EBFA /* Indigo.app */,
+				51776112195BF2950017EBFA /* IndigoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517760F9195BF2940017EBFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				517760FA195BF2940017EBFA /* Foundation.framework */,
+				517760FC195BF2940017EBFA /* CoreGraphics.framework */,
+				517760FE195BF2940017EBFA /* UIKit.framework */,
+				51776113195BF2950017EBFA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51776100195BF2940017EBFA /* Indigo */ = {
+			isa = PBXGroup;
+			children = (
+				51776109195BF2940017EBFA /* indigoAppDelegate.h */,
+				5177610A195BF2940017EBFA /* indigoAppDelegate.m */,
+				5177610C195BF2940017EBFA /* Images.xcassets */,
+				51776101195BF2940017EBFA /* Supporting Files */,
+			);
+			path = Indigo;
+			sourceTree = "<group>";
+		};
+		51776101195BF2940017EBFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51776102195BF2940017EBFA /* Indigo-Info.plist */,
+				51776103195BF2940017EBFA /* InfoPlist.strings */,
+				51776106195BF2940017EBFA /* main.m */,
+				51776108195BF2940017EBFA /* Indigo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51776119195BF2950017EBFA /* IndigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5177611F195BF2950017EBFA /* IndigoTests.m */,
+				5177611A195BF2950017EBFA /* Supporting Files */,
+			);
+			path = IndigoTests;
+			sourceTree = "<group>";
+		};
+		5177611A195BF2950017EBFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5177611B195BF2950017EBFA /* IndigoTests-Info.plist */,
+				5177611C195BF2950017EBFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517760F6195BF2940017EBFA /* Indigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51776123195BF2950017EBFA /* Build configuration list for PBXNativeTarget "Indigo" */;
+			buildPhases = (
+				517760F3195BF2940017EBFA /* Sources */,
+				517760F4195BF2940017EBFA /* Frameworks */,
+				517760F5195BF2940017EBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Indigo;
+			productName = Indigo;
+			productReference = 517760F7195BF2940017EBFA /* Indigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51776111195BF2950017EBFA /* IndigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51776126195BF2950017EBFA /* Build configuration list for PBXNativeTarget "IndigoTests" */;
+			buildPhases = (
+				5177610E195BF2950017EBFA /* Sources */,
+				5177610F195BF2950017EBFA /* Frameworks */,
+				51776110195BF2950017EBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51776118195BF2950017EBFA /* PBXTargetDependency */,
+			);
+			name = IndigoTests;
+			productName = IndigoTests;
+			productReference = 51776112195BF2950017EBFA /* IndigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517760EF195BF2940017EBFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = indigo;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hoang Nam";
+				TargetAttributes = {
+					51776111195BF2950017EBFA = {
+						TestTargetID = 517760F6195BF2940017EBFA;
+					};
+				};
+			};
+			buildConfigurationList = 517760F2195BF2940017EBFA /* Build configuration list for PBXProject "Indigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 517760EE195BF2940017EBFA;
+			productRefGroup = 517760F8195BF2940017EBFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517760F6195BF2940017EBFA /* Indigo */,
+				51776111195BF2950017EBFA /* IndigoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517760F5195BF2940017EBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51776105195BF2940017EBFA /* InfoPlist.strings in Resources */,
+				5177610D195BF2940017EBFA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51776110195BF2950017EBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5177611E195BF2950017EBFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517760F3195BF2940017EBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5177610B195BF2940017EBFA /* indigoAppDelegate.m in Sources */,
+				51776107195BF2940017EBFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5177610E195BF2950017EBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51776120195BF2950017EBFA /* IndigoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51776118195BF2950017EBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 517760F6195BF2940017EBFA /* Indigo */;
+			targetProxy = 51776117195BF2950017EBFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51776103195BF2940017EBFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51776104195BF2940017EBFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5177611C195BF2950017EBFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5177611D195BF2950017EBFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51776121195BF2950017EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51776122195BF2950017EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51776124195BF2950017EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indigo/Indigo-Prefix.pch";
+				INFOPLIST_FILE = "Indigo/Indigo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51776125195BF2950017EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indigo/Indigo-Prefix.pch";
+				INFOPLIST_FILE = "Indigo/Indigo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		51776127195BF2950017EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Indigo.app/Indigo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indigo/Indigo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IndigoTests/IndigoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		51776128195BF2950017EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Indigo.app/Indigo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Indigo/Indigo-Prefix.pch";
+				INFOPLIST_FILE = "IndigoTests/IndigoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517760F2195BF2940017EBFA /* Build configuration list for PBXProject "Indigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51776121195BF2950017EBFA /* Debug */,
+				51776122195BF2950017EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51776123195BF2950017EBFA /* Build configuration list for PBXNativeTarget "Indigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51776124195BF2950017EBFA /* Debug */,
+				51776125195BF2950017EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51776126195BF2950017EBFA /* Build configuration list for PBXNativeTarget "IndigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51776127195BF2950017EBFA /* Debug */,
+				51776128195BF2950017EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517760EF195BF2940017EBFA /* Project object */;
+}
