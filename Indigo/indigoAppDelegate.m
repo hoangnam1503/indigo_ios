@@ -12,10 +12,32 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    // Customize Navigation Bar
+    [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
+//    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"bg_navigation_bar.png"] forBarMetrics:UIBarMetricsDefault];
+    
+    // Customize Tabs Bar
+    UITabBarController *tabBarController = (UITabBarController *) self.window.rootViewController;
+    UITabBar *tabBar = tabBarController.tabBar;
+    UITabBarItem *tabBarNewProduct = [tabBar.items objectAtIndex:0];
+    UITabBarItem *tabBarSpecial = [tabBar.items objectAtIndex:1];
+    UITabBarItem *tabBarNotification = [tabBar.items objectAtIndex:2];
+    UITabBarItem *tabBarMyPage = [tabBar.items objectAtIndex:3];
+    
+    tabBarNewProduct.title = @"1WEEK";
+    tabBarSpecial.title = @"SPECIAL";
+    tabBarNotification.title = @"お知らせ";
+    tabBarMyPage.title = @"マイページ";
+    
+    tabBarNewProduct.selectedImage = [[UIImage imageNamed:@"new_product_selected.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarNewProduct.image = [[UIImage imageNamed:@"new_product.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarSpecial.selectedImage = [[UIImage imageNamed:@"new_product_selected.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarSpecial.image = [[UIImage imageNamed:@"new_product.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarNotification.selectedImage = [[UIImage imageNamed:@"new_product_selected.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarNotification.image = [[UIImage imageNamed:@"new_product.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarMyPage.selectedImage = [[UIImage imageNamed:@"new_product_selected.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    tabBarMyPage.image = [[UIImage imageNamed:@"new_product.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
     return YES;
 }
 

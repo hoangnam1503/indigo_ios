@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512D0EAA195C1D7B0037AF82 /* indigoAddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512D0EA9195C1D7B0037AF82 /* indigoAddNoteViewController.m */; };
+		512D0EB0195D06D20037AF82 /* indigoNoteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 512D0EAF195D06D20037AF82 /* indigoNoteData.m */; };
+		5166EE85195D403900C35952 /* indigoNewProductsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5166EE84195D403900C35952 /* indigoNewProductsTableViewController.m */; };
+		5166EE8D195D4FB100C35952 /* Indigo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5166EE8B195D4FB100C35952 /* Indigo.png */; };
+		5166EE8E195D4FB100C35952 /* Indigo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5166EE8C195D4FB100C35952 /* Indigo@2x.png */; };
+		5166EE91195D52AD00C35952 /* new_product_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5166EE8F195D52AD00C35952 /* new_product_selected.png */; };
+		5166EE92195D52AD00C35952 /* new_product.png in Resources */ = {isa = PBXBuildFile; fileRef = 5166EE90195D52AD00C35952 /* new_product.png */; };
+		5166EE96195D582800C35952 /* bg_navigation_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5166EE95195D582800C35952 /* bg_navigation_bar.png */; };
+		5166EE99195D5C2100C35952 /* mega_charizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 5166EE98195D5C2100C35952 /* mega_charizard.png */; };
+		5166EE9B195D600100C35952 /* IndigoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5166EE9A195D600100C35952 /* IndigoTableCell.xib */; };
+		5166EE9E195D625800C35952 /* IndigoTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5166EE9D195D625800C35952 /* IndigoTableCell.m */; };
 		517760FB195BF2940017EBFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517760FA195BF2940017EBFA /* Foundation.framework */; };
 		517760FD195BF2940017EBFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517760FC195BF2940017EBFA /* CoreGraphics.framework */; };
 		517760FF195BF2940017EBFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517760FE195BF2940017EBFA /* UIKit.framework */; };
@@ -19,6 +30,7 @@
 		51776116195BF2950017EBFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517760FE195BF2940017EBFA /* UIKit.framework */; };
 		5177611E195BF2950017EBFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5177611C195BF2950017EBFA /* InfoPlist.strings */; };
 		51776120195BF2950017EBFA /* IndigoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5177611F195BF2950017EBFA /* IndigoTests.m */; };
+		5177612A195BF6EF0017EBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51776129195BF6EF0017EBFA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		512D0EA8195C1D7B0037AF82 /* indigoAddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indigoAddNoteViewController.h; sourceTree = "<group>"; };
+		512D0EA9195C1D7B0037AF82 /* indigoAddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indigoAddNoteViewController.m; sourceTree = "<group>"; };
+		512D0EAE195D06D20037AF82 /* indigoNoteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indigoNoteData.h; sourceTree = "<group>"; };
+		512D0EAF195D06D20037AF82 /* indigoNoteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indigoNoteData.m; sourceTree = "<group>"; };
+		5166EE83195D403900C35952 /* indigoNewProductsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indigoNewProductsTableViewController.h; sourceTree = "<group>"; };
+		5166EE84195D403900C35952 /* indigoNewProductsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indigoNewProductsTableViewController.m; sourceTree = "<group>"; };
+		5166EE8B195D4FB100C35952 /* Indigo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Indigo.png; path = Resource/Indigo.png; sourceTree = "<group>"; };
+		5166EE8C195D4FB100C35952 /* Indigo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Indigo@2x.png"; path = "Resource/Indigo@2x.png"; sourceTree = "<group>"; };
+		5166EE8F195D52AD00C35952 /* new_product_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_product_selected.png; path = Resource/new_product_selected.png; sourceTree = "<group>"; };
+		5166EE90195D52AD00C35952 /* new_product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_product.png; path = Resource/new_product.png; sourceTree = "<group>"; };
+		5166EE95195D582800C35952 /* bg_navigation_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_navigation_bar.png; path = Resource/bg_navigation_bar.png; sourceTree = "<group>"; };
+		5166EE98195D5C2100C35952 /* mega_charizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mega_charizard.png; sourceTree = "<group>"; };
+		5166EE9A195D600100C35952 /* IndigoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndigoTableCell.xib; sourceTree = "<group>"; };
+		5166EE9C195D625800C35952 /* IndigoTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndigoTableCell.h; sourceTree = "<group>"; };
+		5166EE9D195D625800C35952 /* IndigoTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndigoTableCell.m; sourceTree = "<group>"; };
 		517760F7195BF2940017EBFA /* Indigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517760FA195BF2940017EBFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		517760FC195BF2940017EBFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +75,7 @@
 		5177611B195BF2950017EBFA /* IndigoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IndigoTests-Info.plist"; sourceTree = "<group>"; };
 		5177611D195BF2950017EBFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5177611F195BF2950017EBFA /* IndigoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndigoTests.m; sourceTree = "<group>"; };
+		51776129195BF6EF0017EBFA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +102,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5166EE86195D4DED00C35952 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5166EE97195D5C0400C35952 /* img */,
+				5166EE95195D582800C35952 /* bg_navigation_bar.png */,
+				5166EE8F195D52AD00C35952 /* new_product_selected.png */,
+				5166EE90195D52AD00C35952 /* new_product.png */,
+				5166EE8B195D4FB100C35952 /* Indigo.png */,
+				5166EE8C195D4FB100C35952 /* Indigo@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		5166EE97195D5C0400C35952 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				5166EE98195D5C2100C35952 /* mega_charizard.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		517760EE195BF2940017EBFA = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +156,21 @@
 		51776100195BF2940017EBFA /* Indigo */ = {
 			isa = PBXGroup;
 			children = (
+				5166EE86195D4DED00C35952 /* Resource */,
 				51776109195BF2940017EBFA /* indigoAppDelegate.h */,
 				5177610A195BF2940017EBFA /* indigoAppDelegate.m */,
+				51776129195BF6EF0017EBFA /* Main.storyboard */,
+				512D0EAE195D06D20037AF82 /* indigoNoteData.h */,
+				512D0EAF195D06D20037AF82 /* indigoNoteData.m */,
+				512D0EA8195C1D7B0037AF82 /* indigoAddNoteViewController.h */,
+				512D0EA9195C1D7B0037AF82 /* indigoAddNoteViewController.m */,
+				5166EE83195D403900C35952 /* indigoNewProductsTableViewController.h */,
+				5166EE84195D403900C35952 /* indigoNewProductsTableViewController.m */,
 				5177610C195BF2940017EBFA /* Images.xcassets */,
 				51776101195BF2940017EBFA /* Supporting Files */,
+				5166EE9A195D600100C35952 /* IndigoTableCell.xib */,
+				5166EE9C195D625800C35952 /* IndigoTableCell.h */,
+				5166EE9D195D625800C35952 /* IndigoTableCell.m */,
 			);
 			path = Indigo;
 			sourceTree = "<group>";
@@ -220,8 +280,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5166EE9B195D600100C35952 /* IndigoTableCell.xib in Resources */,
+				5177612A195BF6EF0017EBFA /* Main.storyboard in Resources */,
+				5166EE99195D5C2100C35952 /* mega_charizard.png in Resources */,
 				51776105195BF2940017EBFA /* InfoPlist.strings in Resources */,
+				5166EE8D195D4FB100C35952 /* Indigo.png in Resources */,
+				5166EE96195D582800C35952 /* bg_navigation_bar.png in Resources */,
+				5166EE92195D52AD00C35952 /* new_product.png in Resources */,
+				5166EE8E195D4FB100C35952 /* Indigo@2x.png in Resources */,
 				5177610D195BF2940017EBFA /* Images.xcassets in Resources */,
+				5166EE91195D52AD00C35952 /* new_product_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5177610B195BF2940017EBFA /* indigoAppDelegate.m in Sources */,
+				5166EE85195D403900C35952 /* indigoNewProductsTableViewController.m in Sources */,
+				512D0EB0195D06D20037AF82 /* indigoNoteData.m in Sources */,
 				51776107195BF2940017EBFA /* main.m in Sources */,
+				5166EE9E195D625800C35952 /* IndigoTableCell.m in Sources */,
+				512D0EAA195C1D7B0037AF82 /* indigoAddNoteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +514,7 @@
 				51776125195BF2950017EBFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51776126195BF2950017EBFA /* Build configuration list for PBXNativeTarget "IndigoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +523,7 @@
 				51776128195BF2950017EBFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
